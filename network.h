@@ -18,6 +18,8 @@ class Network
 {
   public:
   
+  Network(const tuple<int, int>&, const tuple<int, int>&, const string&, cosnt double&);
+  
   private:
   
   //here we receive the input of
