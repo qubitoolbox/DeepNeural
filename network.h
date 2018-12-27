@@ -18,6 +18,13 @@ class Network
 {
   public:
   
+  private:
+  
+  //here we receive the input of
+  //each layer.
+  shared_ptr<double> layerInputs;
+  
+  
 
 
 
