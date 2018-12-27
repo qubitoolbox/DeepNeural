@@ -9,3 +9,19 @@
 #include <random>
 #include <cmath>
 
+using namespace std;
+using namespace arma;
+
+double epsilon = 0.0003;
+
+class Network
+{
+  public:
+  
+
+
+
+
+
+
+}
