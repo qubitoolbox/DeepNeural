@@ -24,6 +24,21 @@ class Network
   //each layer.
   shared_ptr<double> layerInputs;
   
+  shared_ptr<Mat<double>> layerWeights;
+  
+  shared_ptr<Mat<double>> layerActivations;
+  
+  shared_ptr<Mat<double>> layerSigmas;
+  
+  shared_ptr<Mat<double>> layerGradients;
+  
+  Mat<double> output;
+  
+  double lambda;
+  double eta;
+  string activation;
+  
+  
   
 
 
