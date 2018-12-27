@@ -23,7 +23,7 @@ class Network
   //here we receive the input of
   //each layer.
   shared_ptr<double> layerInputs;
-  
+  /**/
   shared_ptr<Mat<double>> layerWeights;
   
   shared_ptr<Mat<double>> layerActivations;
